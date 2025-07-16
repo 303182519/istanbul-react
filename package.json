@@ -1,0 +1,28 @@
+{
+  "name": "react-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=test vite build --mode test",
+    "build:test": "cross-env NODE_ENV=test vite build --mode test",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@minko-fe/tsconfig": "^2.1.2",
+    "@types/react": "^18.3.21",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.19",
+    "vite-plugin-istanbul-widget": "^1.12.3",
+    "vite-plugin-public-typescript": "^4.2.0"
+  }
+}

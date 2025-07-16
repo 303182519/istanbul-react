@@ -1,0 +1,5 @@
+{
+  "extends": "@minko-fe/tsconfig/tsconfig.app.json",
+  "compilerOptions": {},
+  "exclude": ["dist"]
+}
